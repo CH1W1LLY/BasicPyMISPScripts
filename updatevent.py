@@ -23,8 +23,8 @@ if __name__ == '__main__':
             exit(0)
 
     # Connection to instance
-    misp_url = 'https://10.0.2.8'
-    misp_key = 'knvLrZVV6cG4Mw0GSEne2zxpuLnK33qOyuDZmNjZ'
+    misp_url = 'YOUR_URL'
+    misp_key = 'YOUR_AUTHKEY'
     misp_verifycert = 0
     misp = ExpandedPyMISP(misp_url, misp_key, misp_verifycert)
 
